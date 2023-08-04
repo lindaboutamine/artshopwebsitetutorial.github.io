@@ -1,0 +1,79 @@
+
+body {
+    position: relative;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-image: url("../images/pattern.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid black;
+    z-index: 10;
+    top: 0;
+}
+header h1 {
+    font-size: 100px;
+    color: khaki;
+    text-shadow: 2px 2px 2px black;
+}
+.container {
+    margin: 10px;
+    display: block;
+    position: relative;
+    top: 150px;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#brushes {
+    background-color: MediumSpringGreen;
+}
+#frames {
+    background-color: LightCoral;
+}
+#paint {
+    background-color: SkyBlue;
+}
+section {
+    position: relative;
+    margin: 20px 0;
+}
+.fig-p {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid red;
+}
+.fig-p div , .fig-p p{
+    width: 50%;
+    border: 1px solid green;
+}
+.img-h {
+    display: inline;
+    width: 100%;
+}
+.fig-p strong {
+    color: blue;
+    user-select: none;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: khaki;
+    border-top: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    z-index: 10;
+}
+#footer h3{
+    padding: 5px;
+}
